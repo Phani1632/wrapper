@@ -8,8 +8,8 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = 'my-java-app'
-        CONTAINER_NAME = 'java-container'
+        IMAGE_NAME = 'wrapper-image'
+        CONTAINER_NAME = 'wrapper-container'
     }
 
     stages {
