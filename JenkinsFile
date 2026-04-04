@@ -8,8 +8,8 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = 'wrapper-image'
-        CONTAINER_NAME = 'wrapper-container'
+        IMAGE_NAME = 'wrapperapp-image'
+        CONTAINER_NAME = 'wrapperapp-container'
     }
 
     stages {
