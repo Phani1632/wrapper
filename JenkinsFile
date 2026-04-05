@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = 'wrapperapp-image-final'
+        IMAGE_NAME = 'wrapperapp-image-latest'
         CONTAINER_NAME = 'wrapperapp-container'
     }
 
