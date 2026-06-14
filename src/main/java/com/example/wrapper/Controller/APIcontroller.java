@@ -7,9 +7,11 @@ import com.example.wrapper.Services.EntityService;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
+@RequestMapping("/wrapper")
 public class APIcontroller {
     EntityService entityService = new EntityService();
 
